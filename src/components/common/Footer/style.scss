@@ -1,0 +1,21 @@
+.contact {
+  .bi {
+    width: 37px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    &.bi-facebook:hover {
+      color: #4267b2;
+    }
+
+    &.bi-skype:hover {
+      color: #00aff0;
+    }
+
+    &.bi-twitter:hover {
+      color: #1da1f2;
+    }
+  }
+}

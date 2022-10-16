@@ -1,0 +1,54 @@
+// Configuration
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+// Layout & components
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/badge';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/images';
+@import 'bootstrap/scss/modal';
+
+// Helpers
+@import 'bootstrap/scss/helpers';
+
+// Utilities
+@import 'bootstrap/scss/utilities/api';
+
+// Bootstrap Icons
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* CUSTOMIZED STYLE */
+
+body {
+  background-image: url('./assets/images/background.jpg');
+  background-size: cover;
+}
+
+// Icon
+@import './components/common/Icon/style.scss';
+
+// Header
+@import './components/common//Header/style.scss';
+
+// Footer
+@import './components/common/Footer/style.scss';
+
+// Quantity Input
+@import './components/common/QuantityInput/style.scss';
+
+// PC Part
+@import './components/PCPart/style.scss';
+
+// Price Range
+@import './components/common/PriceRangeInput/style.scss';
+
+// PC Part List Modal
+@import './components/PCPartListModal/style.scss';
